@@ -23,8 +23,8 @@ xgb_classifier = xgb.XGBClassifier()
 xgb_classifier.fit(X_train, y_train)
 
 # User input
-max_fee = float(input("Enter maximum fee you're ready to pay: "))
 location = input("Enter preferred location: ")
+max_fee = float(input("Enter maximum fee you're ready to pay: "))
 prioritize_experience = input("Do you want to prioritize years of experience? (yes/no): ")
 prioritize_time = input("Do you want to prioritize time required to solve the case? (yes/no): ")
 
